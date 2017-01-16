@@ -16,11 +16,16 @@ $brand-success: #2ab27b;
 $brand-warning: #cbb956;
 $brand-danger:  #bf5329;
 
+$color-red: #c40c0c;
+$color-logo-fg: #ffffff;
+
 // Typography
-$font-family-sans-serif: "Raleway", sans-serif;
+$font-family-sans-serif: "Roboto", sans-serif;
+$font-family-sans-serif-header: "Fira Sans Condensed", serif;
+$font-family-serif: "Roboto Slab", serif;
 $font-size-base: 14px;
 $line-height-base: 1.6;
-$text-color: #636b6f;
+$text-color: #343c40; // #636b6f;
 
 // Navbar
 $navbar-default-bg: #fff;

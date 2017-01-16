@@ -25,6 +25,11 @@ return [
         'region' => 'us-east-1',
     ],
 
+    'slack' => [
+        'team' => env('SLACK_TEAM'),
+        'token' => env('SLACK_API_TOKEN'),
+    ],
+
     'sparkpost' => [
         'secret' => env('SPARKPOST_SECRET'),
     ],

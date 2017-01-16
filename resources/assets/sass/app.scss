@@ -1,9 +1,46 @@
 
 // Fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+// @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,400i,700,700i|Roboto+Slab:400,700|Roboto:400,400i,700,700i');
 
 // Variables
 @import "variables";
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+html {
+  font-size: $font-size-base !important;
+}
+
+html, body {
+  font-family: $font-family-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-sans-serif-header;
+}
+
+.serif {
+  font-family: $font-family-serif;
+}
+
+.sans-serif {
+  font-family: $font-family-sans-serif;
+}
+
+.slack-invite {
+  h1 {
+    color: $color-red;
+  }
+}
+
+a:link, a:visited, a:active {
+  color: $color-red;
+}
+
+a:hover {
+  color: darken($color-red, 10%);
+  text-decoration: none;
+}
+
