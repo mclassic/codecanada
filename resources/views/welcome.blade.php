@@ -13,8 +13,8 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #3a3a3a;
-                color: #CACACA;
+                background-color: #e2e2e2;
+                color: #666666;
                 height: 100vh;
                 margin: 0;
             }
@@ -48,7 +48,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                // color: #636b6f;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -62,17 +62,18 @@
             }
 
             a:link, a:active, a:visited {
-                color: #DEDEDE;
+                color: #666666;
             }
 
             a:hover {
-                color: #BABABA;
+                color: #303030;
             }
         </style>
     </head>
-    <body>
+    <body class="landing">
         <div class="flex-center position-ref full-height">
             <div class="content">
+                <img src="{!! asset('img/code-canada-icon.png') !!}" class="center-block img-responsive">
                 <h1 class="title m-b-md">
                     Code Canada
                 </h1>
