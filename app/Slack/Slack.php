@@ -132,8 +132,6 @@ class Slack
             'token' => $this->token,
         ]);
 
-        dd($params);
-
         $response = $this->http->request('POST', $this->url('users.admin.invite'), [
             RequestOptions::FORM_PARAMS => $params,
         ]);
