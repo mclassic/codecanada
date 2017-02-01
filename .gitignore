@@ -1,6 +1,7 @@
 /node_modules
 /public/storage
 /public/hot
+/stoage/*.key
 /vendor
 /.idea
 Homestead.json
@@ -10,3 +11,5 @@ Homestead.yaml
 /public/js/app.js
 *.css.map
 *.js.map
+/public/fonts
+/public/mix-manifest.json
